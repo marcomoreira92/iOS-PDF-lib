@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS PDF lib" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXr-wB-vtG">
+                                <rect key="frame" x="157" y="251" width="287" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="287" id="8Qh-Ry-gb9"/>
+                                    <constraint firstAttribute="height" constant="98" id="Jec-vd-b0u"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Marco Moreira" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lum-wL-kDU">
+                                <rect key="frame" x="218" y="336" width="164" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="3NR-oK-9Fo"/>
+                                    <constraint firstAttribute="height" constant="21" id="e58-b1-9cn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="m4c-g6-h5Q">
+                                <rect key="frame" x="260" y="175" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="lmJ-dn-j03"/>
+                                    <constraint firstAttribute="height" constant="80" id="m8w-63-sU8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16862745098039217" green="0.54117647058823526" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="qXr-wB-vtG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="2ez-V3-MIU"/>
+                            <constraint firstItem="lum-wL-kDU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="AQe-ee-yWA"/>
+                            <constraint firstItem="qXr-wB-vtG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JYA-fq-JrK"/>
+                            <constraint firstItem="lum-wL-kDU" firstAttribute="top" secondItem="qXr-wB-vtG" secondAttribute="bottom" constant="-13" id="NxP-cM-aNn"/>
+                            <constraint firstItem="qXr-wB-vtG" firstAttribute="top" secondItem="m4c-g6-h5Q" secondAttribute="bottom" constant="-4" id="TEe-Qw-8kg"/>
+                            <constraint firstItem="m4c-g6-h5Q" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="s5l-Pk-Mxs"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch-Logo" width="80" height="80"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+</document>
