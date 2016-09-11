@@ -14,11 +14,25 @@ For sugestions and code corrections please contact me so we can make this librar
 
 To change the PDF Reader theme color please check the Constants.m file.
 
+<br>
+<br>
+<br>
+##HOW IT WORKS:
+
+<p align="center">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/marcomoreira92/iOS-PDF-lib/master/HowItWorks.png" alt="iOS PDF lib" >
+</p>
+
+To use both libraries simultaneously a SearchView was added to the ReaderMainToolbar.
+ A searchHolder (a static variable holder containing the data actively being used in a search) was created that saves the keyword used in the search process (step 1) which fires the setNeedDisplay (step 2) that notifies the operating system of the need for a View update. 
+The setNeedDisplay action calls the drawLayer implemented in ReaderContentPage responsible for recreating the View. However, since drawLayer is a system method it can not have any search parameters. Before beginning the recreation process a call is made to the search library (step 3), returning a set of coordinates (step 4) that indicate where the search result should be highlighted.
+
+<br>
+<br>
+<br>
 
 
-<br>
-<br>
-<br>
 
 ##LICENCE:
 
