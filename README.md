@@ -13,6 +13,10 @@ PDF lib was developed in Objective C, while the example App was written in Swift
 For sugestions and code corrections please contact me so we can make this library better forfuture implementations.
 
 To change the PDF Reader theme color please check the Constants.m file.
+<p align="center">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/marcomoreira92/iOS-PDF-lib/master/AppPreviewScreens.png" alt="iOS PDF lib" >
+</p>
 
 <br>
 <br>
