@@ -1,16 +1,16 @@
 
-# iOS PDF lib
+# iOS PDF lib (Swift)
 <p align="center">
   <br><br>
   <img src="https://raw.githubusercontent.com/marcomoreira92/iOS-PDF-lib/master/AppLogo.png" alt="iOS PDF lib" height="150" width="150">
 </p>
 
 ##ABOUT:
-This library bundles together two PDF libraries, the VFR library (http://www.vfr.org/) for the PDF viewer and KurtCode/PDFKitten (https://github.com/KurtCode/PDFKitten) for the search engine.
+This library bundles together two PDF libraries, the VFR Reader library (https://github.com/vfr/Reader) for the PDF viewer and the KurtCode PDFKitten (https://github.com/KurtCode/PDFKitten) for the search engine.
 
-PDF lib was developed in Objective C, while the example App was written in Swift 2.1.
+PDF lib was developed in Objective-C, while the example App was written in Swift 2.1.
 
-For sugestions and code corrections please contact me so we can make this library better forfuture implementations.
+For sugestions and code corrections please contact me so we can make this library better for future implementations.
 
 To change the PDF Reader theme color please check the Constants.m file.
 <p align="center">
