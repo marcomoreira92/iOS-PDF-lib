@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/marcomoreira92/iOS-PDF-lib/master/AppLogo.png" alt="iOS PDF lib" height="150" width="150">
 </p>
 
-##ABOUT:
+## ABOUT:
 This library bundles together two PDF libraries, the VFR Reader library (https://github.com/vfr/Reader) for the PDF viewer and the KurtCode PDFKitten (https://github.com/KurtCode/PDFKitten) for the search engine.
 
 PDF lib was developed in Objective-C, while the example App was written in Swift 2.1.
@@ -21,7 +21,7 @@ To change the PDF Reader theme color please check the Constants.m file.
 <br>
 <br>
 <br>
-##HOW IT WORKS:
+## HOW IT WORKS:
 
 <p align="center">
   <br><br>
@@ -38,7 +38,7 @@ The setNeedDisplay action calls the drawLayer implemented in ReaderContentPage r
 
 
 
-##LICENCE:
+## LICENCE:
 
 Copyright (c) 2016 Marco Moreira
 
